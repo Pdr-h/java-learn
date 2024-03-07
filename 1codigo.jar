@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		float notas[] = new float[4];
+		float media = 0;
+		 Scanner scanner = new Scanner(System.in);
+		 
+		for(int i = 0; i < 4; i++){
+		    System.out.printf("Digite sua " + (i+1) + " nota");
+		    notas[i] = scanner.nextFloat();
+		    media += notas[i];
+		}
+	
+	media /= 4;
+	
+	if (media >= 7){ 
+	    System.out.println("Aprovado");
+	    
+	}
+	else if (media >= 5){
+	    System.out.println("Recu");
+	    
+	}
+	else{
+	    System.out.println("Reprovado");
+	}
+	scanner.close();
+	}
+}
