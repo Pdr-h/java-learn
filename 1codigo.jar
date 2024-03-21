@@ -1,4 +1,4 @@
-import java.util.Scanner;
+çãoimport java.util.Scanner;
 public class Main
 {
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Main
 	    
 	}
 	else if (media >= 5){
-	    System.out.println("Recu");
+	    System.out.println("Recuperação");
 	    
 	}
 	else{
